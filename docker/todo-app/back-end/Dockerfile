@@ -1,8 +1,6 @@
-FROM node:14-slim
+FROM node:14
 
-EXPOSE 3001
-
-WORKDIR /docker/todo-app/back-end/
+WORKDIR /
 
 ADD node_modules.tar.gz .
 COPY . .

@@ -1,8 +1,6 @@
 FROM node:14-slim
 
-EXPOSE 3000
-
-WORKDIR /docker/todo-app/front-end/
+WORKDIR /
 
 ADD node_modules.tar.gz .
 COPY . .
