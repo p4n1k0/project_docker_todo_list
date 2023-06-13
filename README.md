@@ -26,6 +26,4 @@ Esse projeto teve como intuito treinar para ter mais familiaridade com a documen
 
 </details>
 
-<details>
-  <strong>🗣 Me dê feedbacks sobre o projeto!</strong>
-</details>
+<strong>🗣 Me dê feedbacks sobre o projeto!</strong>
