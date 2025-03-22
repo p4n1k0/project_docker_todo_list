@@ -1,8 +1,7 @@
 FROM mjgargani/puppeteer:trybe1.0
+WORKDIR /
 
-ADD node_modules.tar.gz .
+ADD node_modules.tar.gz ./
+COPY . ./
 
-COPY . .
-
-RUN npm install
-ENTRYPOINT [ "npm" ]
+ENTRYPOINT [ "npm", "test" ]

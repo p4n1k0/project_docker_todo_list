@@ -1,9 +1,9 @@
-FROM node:14-slim
-
+FROM node:14.20-alpine
 WORKDIR /
 
-ADD node_modules.tar.gz .
-COPY . .
+ADD node_modules.tar.gz ./
+COPY . ./
 
-ENTRYPOINT [ "npm" ]
-CMD ["start"] 
+EXPOSE 3001
+
+ENTRYPOINT ["npm", "start"]
